@@ -1,0 +1,8 @@
+.idea/
+backend/ProEP/.env
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+frontend/node_modules/
