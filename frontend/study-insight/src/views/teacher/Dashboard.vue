@@ -1,9 +1,16 @@
 <template>
-    <div>Dashboard - teacher</div>
+    <div>
+    <TabsComponent/>
+    </div>
 </template>
 
 <script>
-  export default {
-    name: "Dashboard"
+    import TabsComponent from "../../components/base/TabsComponent";
+
+    export default {
+    name: "Dashboard",
+        components: {
+            TabsComponent
+        }
   }
 </script>
